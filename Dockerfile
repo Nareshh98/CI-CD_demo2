@@ -13,4 +13,3 @@ EXPOSE 8282
 COPY entrypoint.sh /appContainer/logs.sh
 # Command to run the application
 CMD ["java","-jar","sping-docker2.jar"]
-
