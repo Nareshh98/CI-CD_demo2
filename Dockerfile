@@ -3,7 +3,7 @@ FROM openjdk:17
 # Set working directory inside the container
 WORKDIR /appContainer
 
-COPY cert.txt /appContainer/cert.txt
+#COPY cert.txt /appContainer/cert.txt
 
 # Copy the compiled Java application JAR file into the container
 COPY ./target/sping-docker2.jar /appContainer
